@@ -1,0 +1,13 @@
+Game Instruction
+
+Rules
+Move red pieces to the positions of green pieces and vice versa to win the game. The pieces are in green and red and they are pressable. When being pressed, the cells in grey (empty and unpressable) turn to yellow and they become pressable (depending on each piece of red and green, the number of yellow cells will vary as the moves are made along a path of empty places).
+If players try to move to another red or green cell. The program will then just activate which empty cells that the clicked red or green cell can move.
+The program includes a timer, undo button, pause button, and reset button. 
+The timer also allows players know if players have consumed to much time by showing different colors for each period (green for the first 2 minutes, yellow for the next 2, and red for later)
+
+Extra Functionalities
+The program offers a pause function which, whenever players want, can temporarily stop the game. Every main buttons are disabled and the time does not run until players press the pause button again (the text of the button in this case is “continue”). 
+There is also undo button which allows us to return to the previous move.
+Finally, if players can complete the game within 31 moves the background of the whole game will blink yellow.
+
